@@ -5,9 +5,9 @@
         <li><router-link to="/dashboard" class="sidebar-link">Dashboard</router-link></li>        
         <li><router-link to="/deals" class="sidebar-link">Deals</router-link></li>
         <li><router-link to="/listings" class="sidebar-link">Listings</router-link></li>
-        <li>Clients</li>
-        <li>Calendar</li>
-        <li>Contacts</li>
+        <li><router-link to="/clients" class="sidebar-link">Clients</router-link></li>
+        <li><router-link to="/calendar" class="sidebar-link">Calendar</router-link></li>
+        <li><router-link to="/contacts" class="sidebar-link">Contacts</router-link></li>
         <li>Project</li>
         <li>Setting</li>
         <li>Support</li>

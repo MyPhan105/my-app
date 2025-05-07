@@ -3,7 +3,9 @@ import Home from '../views/Home.vue'
 import Dashboard from '../views/Dashboard.vue' // Import the Dashboard component
 import Deals from '../views/Deals.vue'
 import Listings from '../views/Listings.vue'
-
+import Clients from '../views/Clients.vue'
+import Calendar from '../views/Calendar.vue'
+import Contacts from '../views/Contacts.vue'
 
 
 
@@ -12,7 +14,9 @@ const routes = [
   { path: '/dashboard', component: Dashboard },
   { path: '/deals', component: Deals },
   { path: '/listings', component: Listings },
-
+  { path: '/clients', component: Clients },
+  { path: '/calendar', component: Calendar },
+  { path: '/contacts', component: Contacts },
 
 
    // Add route for Dashboard page
