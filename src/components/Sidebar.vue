@@ -1,7 +1,9 @@
 <template>
     <div :class="['sidebar', { visible: isVisible }]">
       <ul class="sidebar-list">
-        <li><router-link to="/dashboard" class="sidebar-link">Dashboard</router-link></li>        <li>Deals</li>
+        <li><router-link to="/" class="sidebar-link">Home</router-link></li> <!-- Home link -->
+        <li><router-link to="/dashboard" class="sidebar-link">Dashboard</router-link></li>        
+        <li><router-link to="/deals" class="sidebar-link">Deals</router-link></li>
         <li>Listings</li>
         <li>Clients</li>
         <li>Calendar</li>
