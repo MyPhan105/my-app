@@ -1,8 +1,7 @@
 <template>
     <div :class="['sidebar', { visible: isVisible }]">
       <ul class="sidebar-list">
-        <li>Dashboard</li>
-        <li>Deals</li>
+        <li><router-link to="/dashboard" class="sidebar-link">Dashboard</router-link></li>        <li>Deals</li>
         <li>Listings</li>
         <li>Clients</li>
         <li>Calendar</li>
@@ -71,5 +70,13 @@
   .sidebar-list li:hover {
     background-color: #e87722; /* RealNex Orange */
   }
+
+  .sidebar-link {
+  color: white; /* Change link color to white */
+  text-decoration: none; /* Remove underline */
+  display: block;
+  padding: 10px 0;
+}
+
   </style>
   
