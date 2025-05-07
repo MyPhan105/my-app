@@ -2,9 +2,7 @@
   <div id="app">
     <Navbar @toggleSidebar="toggleSidebar" />
     <Sidebar :isVisible="sidebarVisible" />
-    <main class="main-content">
-      <p>Your homepage content goes here.</p>
-    </main>
+    <router-view /> <!-- This renders the current route's component -->
   </div>
 </template>
 
