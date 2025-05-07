@@ -6,6 +6,10 @@ import Listings from '../views/Listings.vue'
 import Clients from '../views/Clients.vue'
 import Calendar from '../views/Calendar.vue'
 import Contacts from '../views/Contacts.vue'
+import Projects from '../views/Projects.vue'
+import Settings from '../views/Settings.vue'
+import Support from '../views/Support.vue'
+import Logout from '../views/Logout.vue'
 
 
 
@@ -17,7 +21,10 @@ const routes = [
   { path: '/clients', component: Clients },
   { path: '/calendar', component: Calendar },
   { path: '/contacts', component: Contacts },
-
+  { path: '/projects', component: Projects },
+  { path: '/settings', component: Settings },
+  { path: '/support', component: Support },
+  { path: '/logout', component: Logout },
 
    // Add route for Dashboard page
 ]

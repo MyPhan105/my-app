@@ -7,11 +7,10 @@
         <li><router-link to="/listings" class="sidebar-link">Listings</router-link></li>
         <li><router-link to="/clients" class="sidebar-link">Clients</router-link></li>
         <li><router-link to="/calendar" class="sidebar-link">Calendar</router-link></li>
-        <li><router-link to="/contacts" class="sidebar-link">Contacts</router-link></li>
-        <li>Project</li>
-        <li>Setting</li>
-        <li>Support</li>
-        <li>Logout</li>
+        <li><router-link to="/projects" class="sidebar-link">Projects</router-link></li>
+        <li><router-link to="/settings" class="sidebar-link">Settings</router-link></li>
+        <li><router-link to="/support" class="sidebar-link">Support</router-link></li>
+        <li><router-link to="/logout" class="sidebar-link">Logout</router-link></li>
       </ul>
     </div>
   </template>
