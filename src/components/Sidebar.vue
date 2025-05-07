@@ -16,15 +16,16 @@
   </template>
   
   <script setup>
-  import { ref, watch } from 'vue'
+  import { watch } from 'vue'
   
-  const isVisible = ref(false)
+  const props = defineProps({
+    isVisible: {
+      type: Boolean,
+      required: true,
+    },
+  })
   
-  const toggleSidebar = (value) => {
-    isVisible.value = value
-  }
-  
-  watch(isVisible, (newValue) => {
+  watch(() => props.isVisible, (newValue) => {
     if (newValue) {
       // Optional: Add a delay for the sidebar to complete sliding in
       setTimeout(() => {
@@ -65,10 +66,6 @@
     border-bottom: 1px solid #ddd;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .sidebar-list li:hover {
-    background-color: #555; /* Darker background color on hover */
   }
   
   .sidebar-list li:hover {
